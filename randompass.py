@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import argparse
 import random
@@ -21,6 +21,6 @@ def main():
         char_index = random.randint(0, possible_len)
         psswd += possible_char[char_index]
 
-    print "Your password is : {0}".format(psswd)
+    print("Your password is : {0}".format(psswd))
 
 main()
